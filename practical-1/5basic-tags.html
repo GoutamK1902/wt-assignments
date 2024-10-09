@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5 Basic Tags</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #333;
+      color: #f5f5f5;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    h1 {
+      text-align: center;
+      background-color: #000000;
+      padding: 10px;
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      padding: 0 20px;
+      line-break: loose;
+      word-break: keep-all;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 100;
+      font-size: 16px
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px 25px;
+      row-gap: 20px;
+      align-items: center;
+
+    }
+
+    .imgBox {
+      background-color: #10191f;
+      width: 70%;
+      max-height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      transition: box-shadow 1s ease;
+      transition: background-color .5s ease;
+    }
+
+    .imgBox:hover {
+      box-shadow: 0px 0px 10px 1px #02d7fdc9;
+      background-color: #060809d0;
+    }
+
+    .imgBox img {
+      width: 90%;
+      height: 50%;
+    }
+
+    .list {
+      padding: 0 20px;
+      line-break: loose;
+      word-break: keep-all;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 100;
+      font-size: 12px
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Indian Automobile Industry &lt;h1&gt;</h1>
+  <main>
+    <h2>Img Tag</h2>
+    <div class="imgBox">
+      <img src="images/virtus.png" alt="VWvirtus">
+    </div>
+    <h2>P tag</h2>
+    <div class="text-box">
+      <p>The Indian automobile industry is one of the largest in the world, playing a vital role in the country's economy. It encompasses a wide range of vehicles, including passenger cars, commercial vehicles, two-wheelers, and electric vehicles (EVs). Known for its affordability and growing technological advancements, the industry has attracted both domestic and international manufacturers. Brands like Tata Motors, Mahindra, and Maruti Suzuki dominate the market, while foreign companies like Hyundai and Toyota also have a strong presence. With increasing focus on sustainability, the industry is shifting towards electric mobility, positioning India as a key player in the global automotive landscape.</p>
+    </div>
+    <h2>ul & li tag</h2>
+    <ul class="list">
+      Future Prospects:
+      <li>Electric Vehicles (EVs): Significant growth in the adoption of electric vehicles, supported by government incentives and infrastructure development.</li>
+      <li>Sustainability Focus: Increased emphasis on sustainable practices and reducing carbon emissions, including the development of hybrid and alternative fuel vehicles.
+      </li>
+      <li>
+        Technological Advancements: Integration of advanced technologies such as AI, IoT, and connected vehicle systems for enhanced safety and user experience.
+      </li>
+      <li>
+        Manufacturing Innovation: Shift towards localized manufacturing and supply chains, promoting the 'Make in India' initiative.
+      </li>
+      <li>
+        Rising Demand: Growth in urbanization and rising disposable incomes driving demand for personal and commercial vehicles.
+      </li>
+      <li>
+        Mobility Solutions: Emergence of shared mobility solutions and ride-hailing services, changing traditional ownership models.
+      </li>
+      <li>
+        Government Policies: Supportive regulatory framework and policies aimed at promoting electric and hybrid vehicles.
+      </li>
+    </ul>
+  </main>
+</body>
+
+</html>
